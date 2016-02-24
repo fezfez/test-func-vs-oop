@@ -17,7 +17,7 @@ function test() {
 
 $sut = new oo();
 
-$nb_occur=50000;
+$nb_occur=500000;
 
 
 $time_start = microtime(true);
