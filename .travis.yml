@@ -8,7 +8,7 @@ php:
   - 7.1
 
 before_script:
-  - phpenv config-rm xdebug.ini
+  - phpenv config-rm xdebug.ini | 1
 
 script:
   - php test.php
